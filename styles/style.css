@@ -162,13 +162,42 @@ main > section{
     font-size: 1rem;
     font-weight: 500;
     color:rgba(224, 44, 109, 1) ;
+    text-decoration: none;
     /* position: right bottom; */
     
+}
+/* Features style.. */
+
+.features-btn{ 
+    background-color:rgba(224, 44, 109, 1) ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding:10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 190px;
+    height: 44px;
+    margin:20px;
+         
+
+}
+
+.Features{
+    max-width: 1110px;
+    justify-items: center;
+    margin:0 auto;
+    gap: 50px;
+}
+
+.Features-content{
+     max-width: 570px;
 }
   /* shared style  */
   .display-flex{
     display: flex;
     
   }
+
 
   
